@@ -1,0 +1,31 @@
+.modal {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: gray;
+    
+    
+    
+}
+.modal__window {
+    position: fixed;
+    height: 20vh;
+    width: 50vw;
+    top: 0;
+    padding: 15px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow:  5px 5px 6px black;
+    background-color: lightblue;
+    
+    
+}
+.modal__window--close {
+    display: none;
+}
